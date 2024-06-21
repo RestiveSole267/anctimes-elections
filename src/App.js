@@ -11,11 +11,11 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path='/' element={<AnchorageFeed></AnchorageFeed>}></Route>
-        <Route path='/anchorage' element={<AnchorageFeed></AnchorageFeed>}></Route>
-        <Route path='/ridgeway' element={<RidgewayFeed></RidgewayFeed>}></Route>
-        <Route path='/harrison' element={<HarrisonFeed></HarrisonFeed>}></Route>
-        <Route path='/state-results' element={<StateResultsFeed></StateResultsFeed>}></Route>
+        <Route path='/anctimes-elections/' element={<AnchorageFeed></AnchorageFeed>}></Route>
+        <Route path='/anctimes-elections/anchorage' element={<AnchorageFeed></AnchorageFeed>}></Route>
+        <Route path='anctimes-elections/ridgeway' element={<RidgewayFeed></RidgewayFeed>}></Route>
+        <Route path='anctimes-elections/harrison' element={<HarrisonFeed></HarrisonFeed>}></Route>
+        <Route path='anctimes-elections/state-results' element={<StateResultsFeed></StateResultsFeed>}></Route>
       </Routes>
     </div>
   );
