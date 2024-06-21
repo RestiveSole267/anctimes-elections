@@ -1,0 +1,15 @@
+
+.fouronefour-section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 5%;
+}
+.fouronefour-header{
+    font-size: 75px;
+    color: gray;
+}
+.fouronefour-pagesection{
+    padding-left: 27%;
+    max-width: 650px;
+}

@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+import RidgewayFeed from './ridgeway/ridgeway-feed';
+import AnchorageFeed from './anchorage/anchorage-feed';
+import HarrisonFeed from './harrison/harrison-feed';
+import StateResultsFeed from './state-results/state-results-feed';
 import './App.css';
+import { Route, Routes } from "react-router-dom"
+
 
 function App() {
+  console.log(window.location)
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+        <Route path='/' element={<AnchorageFeed></AnchorageFeed>}></Route>
+        <Route path='/anchorage' element={<AnchorageFeed></AnchorageFeed>}></Route>
+        <Route path='/ridgeway' element={<RidgewayFeed></RidgewayFeed>}></Route>
+        <Route path='/harrison' element={<HarrisonFeed></HarrisonFeed>}></Route>
+        <Route path='/state-results' element={<StateResultsFeed></StateResultsFeed>}></Route>
+      </Routes>
     </div>
   );
 }
