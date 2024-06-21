@@ -7,7 +7,7 @@ class ElectionNavBar extends React.Component{
     render(){
         return (
             <div id='election-header'>
-                <Link to='/anctimes-elections' className='election-logo'>
+                <Link to='/anctimes-elections/' className='election-logo'>
                     <rect className="two"><b><span className="two-text">2</span></b></rect>
                     <rect className="zero"><b><span className="two-text">0</span></b></rect>
                     <rect className="two-1"><b><span className="two-text">2</span></b></rect>
