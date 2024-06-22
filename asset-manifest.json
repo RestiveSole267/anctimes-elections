@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/anctimes-elections/static/css/main.b4a1a34e.css",
-    "main.js": "/anctimes-elections/static/js/main.fa1fb567.js",
+    "main.js": "/anctimes-elections/static/js/main.ecc74c01.js",
     "static/js/453.066f5027.chunk.js": "/anctimes-elections/static/js/453.066f5027.chunk.js",
     "static/media/Chomsky.ttf": "/anctimes-elections/static/media/Chomsky.0f478658820be47b1c38.ttf",
     "static/media/timesnewroman.ttf": "/anctimes-elections/static/media/timesnewroman.f85717dad92d60284052.ttf",
     "static/media/ImperialRegular.ttf": "/anctimes-elections/static/media/ImperialRegular.ca98acac564069e658cc.ttf",
     "index.html": "/anctimes-elections/index.html",
     "main.b4a1a34e.css.map": "/anctimes-elections/static/css/main.b4a1a34e.css.map",
-    "main.fa1fb567.js.map": "/anctimes-elections/static/js/main.fa1fb567.js.map",
+    "main.ecc74c01.js.map": "/anctimes-elections/static/js/main.ecc74c01.js.map",
     "453.066f5027.chunk.js.map": "/anctimes-elections/static/js/453.066f5027.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b4a1a34e.css",
-    "static/js/main.fa1fb567.js"
+    "static/js/main.ecc74c01.js"
   ]
 }
