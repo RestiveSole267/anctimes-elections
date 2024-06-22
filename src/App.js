@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path='/anctimes-elections/' element={<AnchorageFeed></AnchorageFeed>}></Route>
+        <Route path='/anctimes-elections/' element={<RidgewayFeed></RidgewayFeed>}></Route>
         <Route path='/anctimes-elections/anchorage' element={<AnchorageFeed></AnchorageFeed>}></Route>
         <Route path='anctimes-elections/ridgeway' element={<RidgewayFeed></RidgewayFeed>}></Route>
         <Route path='anctimes-elections/harrison' element={<HarrisonFeed></HarrisonFeed>}></Route>

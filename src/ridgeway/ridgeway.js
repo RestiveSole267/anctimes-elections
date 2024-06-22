@@ -80,7 +80,7 @@ class RidgewayElectionFeed extends React.Component{
                         </table>
                         <div className='footer-table'>
                             <p className='footnote-title'>*Incumbent</p>
-                            <p className='reported-title'>0% Reported</p>
+                            <p className='reported-title'>20% Reported</p>
                         </div>
                     </div>
                 </div>
