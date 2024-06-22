@@ -1,17 +1,19 @@
-import React, { useEffect } from "react";
+import React from "react";
 import moment from "moment";
 import CheckIcon from '@material-ui/icons/Check';
 import "../App.css";
 
-const URL = "https://restivesole267.github.io/anctimes-election-data/ridgeway-votes-062024.json";
+
 
 class RidgewayElectionFeed extends React.Component{
+
     render(){
+        const URL = "https://restivesole267.github.io/anctimes-election-data/ridgeway-votes-062024.json";
         const ctime = moment().format('h:mm')
         return (
             <div className='election-feed'>
                 <div className='section-header'>
-                    <p className='status-live'> <b>LIVE</b>: Last Updated {ctime} p.m. E.T</p>
+                    <p className='status-live'> <b>LIVE</b>: Last Updated {ctime} a.m. E.T</p>
                     <h1 className='election-primary-name'>Ridgeway Primary Election Results</h1>
                 </div>
                 <div className='governor-section'>
@@ -19,7 +21,7 @@ class RidgewayElectionFeed extends React.Component{
                     <p className='election-desc'>Governor Matrix_oc, a Independent, is facing DanielReagan, the incumbent Sheriff of the Ridgeway Sheriffs Office, in the Ridgeway Gubernatorial Primary Race.</p>
                     <div className='candidate-table-1'>
                         <div className='updated-info-table'>
-                            <p className='last-update-title'>Latest results from {ctime} p.m. ET</p>
+                            <p className='last-update-title'>Latest results from {ctime} a.m. ET</p>
                             <p className='cerified-votes-title'>VOTE TOTALS CERTIFIED</p>
                         </div>
                         <table className='candidate-table-body'>
@@ -34,14 +36,14 @@ class RidgewayElectionFeed extends React.Component{
                                 <div className='can-name-unoffical'>Matrix_oc* </div>
                                 <div className='can-party'>Independent</div>
                                 <div className='can-votes'>N/A</div>
-                                <div className='can-pct'>45.03%</div>
+                                <div className='can-pct'>46.27%</div>
                             </tr>
                             <tr className='candidate-2'>
                                 <div className='can-partycolor-ind'></div>
                                 <div className='can-name2'>DanielReagan</div>
                                 <div className='can-party'>Independent</div>
                                 <div className='can-votes'>N/A</div>
-                                <div className='can-pct'>54.97%</div>
+                                <div className='can-pct'>53.73%</div>
                             </tr>
                         </table>
                         <div className='footer-table'>
@@ -55,7 +57,7 @@ class RidgewayElectionFeed extends React.Component{
                     <p className='election-desc'>JasonBourneAxis, is currently locked in a tight race with AlexNeptunes, a Independent, to keep his post as Secretary of State of Ridgeway. </p>
                     <div className='candidate-table-1'>
                         <div className='updated-info-table'>
-                            <p className='last-update-title'>Latest results from {ctime} p.m. E.T.</p>
+                            <p className='last-update-title'>Latest results from {ctime} a.m. E.T.</p>
                             <p className='cerified-votes-title'>VOTE TOTALS CERTIFIED</p>
                         </div>
                         <table className='candidate-table-body'>
@@ -70,14 +72,14 @@ class RidgewayElectionFeed extends React.Component{
                                 <div className='can-name-unoffical'>JasonBourneAxis*</div>
                                 <div className='can-party'>Independent</div>
                                 <div className='can-votes'>N/A</div>
-                                <div className='can-pct'>46.31%</div>
+                                <div className='can-pct'>45.48%</div>
                             </tr>
                             <tr className='candidate-2'>
                                 <div className='can-partycolor-ind'></div>
                                 <div className='can-name2'>AlexNeptunes</div>
                                 <div className='can-party'>Independent</div>
                                 <div className='can-votes'>N/A</div>
-                                <div className='can-pct'>53.69%</div>
+                                <div className='can-pct'>54.52%</div>
                             </tr>
                         </table>
                         <div className='footer-table'>
