@@ -48,7 +48,7 @@ class RidgewayElectionFeed extends React.Component{
                         </table>
                         <div className='footer-table'>
                             <p className='footnote-title'>*Incumbent</p>
-                            <p className='reported-title'>{'>'}25% Reported</p>
+                            <p className='reported-title'>{'>'}50% Reported</p>
                         </div>
                     </div>
                 </div>
@@ -84,7 +84,7 @@ class RidgewayElectionFeed extends React.Component{
                         </table>
                         <div className='footer-table'>
                             <p className='footnote-title'>*Incumbent</p>
-                            <p className='reported-title'>{'>'}25% Reported</p>
+                            <p className='reported-title'>{'>'}50% Reported</p>
                         </div>
                     </div>
                 </div>
