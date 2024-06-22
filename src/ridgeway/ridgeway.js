@@ -35,14 +35,14 @@ class RidgewayElectionFeed extends React.Component{
                                 <div className='can-partycolor-ind'></div>
                                 <div className='can-name-unoffical'>Matrix_oc* </div>
                                 <div className='can-party'>Independent</div>
-                                <div className='can-votes'>N/A</div>
+                                <div className='can-votes'>143</div>
                                 <div className='can-pct'>46.8%</div>
                             </tr>
                             <tr className='candidate-2'>
                                 <div className='can-partycolor-ind'></div>
                                 <div className='can-name2'>DanielReagan</div>
                                 <div className='can-party'>Independent</div>
-                                <div className='can-votes'>N/A</div>
+                                <div className='can-votes'>166</div>
                                 <div className='can-pct'>53.92%</div>
                             </tr>
                         </table>
@@ -71,14 +71,14 @@ class RidgewayElectionFeed extends React.Component{
                                 <div className='can-partycolor-ind'></div>
                                 <div className='can-name-unoffical'>JasonBourneAxis*</div>
                                 <div className='can-party'>Independent</div>
-                                <div className='can-votes'>N/A</div>
+                                <div className='can-votes'>124</div>
                                 <div className='can-pct'>47.7%</div>
                             </tr>
                             <tr className='candidate-2'>
                                 <div className='can-partycolor-ind'></div>
                                 <div className='can-name2'>AlexNeptunes</div>
                                 <div className='can-party'>Independent</div>
-                                <div className='can-votes'>N/A</div>
+                                <div className='can-votes'>136</div>
                                 <div className='can-pct'>52.3%</div>
                             </tr>
                         </table>
