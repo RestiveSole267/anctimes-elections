@@ -32,14 +32,14 @@ class RidgewayElectionFeed extends React.Component{
                                 <div className='can-name-unoffical'>Matrix_oc* </div>
                                 <div className='can-party'>Independent</div>
                                 <div className='can-votes'>0</div>
-                                <div className='can-pct'>0%</div>
+                                <div className='can-pct'>41%</div>
                             </tr>
                             <tr className='candidate-2'>
                                 <div className='can-partycolor-ind'></div>
                                 <div className='can-name2'>DanielReagan</div>
                                 <div className='can-party'>Independent</div>
                                 <div className='can-votes'>0</div>
-                                <div className='can-pct'>0%</div>
+                                <div className='can-pct'>58%</div>
                             </tr>
                         </table>
                         <div className='footer-table'>
@@ -68,14 +68,14 @@ class RidgewayElectionFeed extends React.Component{
                                 <div className='can-name-unoffical'>JasonBourneAxis*</div>
                                 <div className='can-party'>Independent</div>
                                 <div className='can-votes'>0</div>
-                                <div className='can-pct'>0%</div>
+                                <div className='can-pct'>46.08%</div>
                             </tr>
                             <tr className='candidate-2'>
                                 <div className='can-partycolor-ind'></div>
                                 <div className='can-name2'>AlexNeptunes</div>
                                 <div className='can-party'>Independent</div>
                                 <div className='can-votes'>0</div>
-                                <div className='can-pct'>0%</div>
+                                <div className='can-pct'>53.92%</div>
                             </tr>
                         </table>
                         <div className='footer-table'>
