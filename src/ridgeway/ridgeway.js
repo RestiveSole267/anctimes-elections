@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 import moment from "moment";
 import CheckIcon from '@material-ui/icons/Check';
 import "../App.css";
+
+const URL = "https://restivesole267.github.io/anctimes-election-data/ridgeway-votes-062024.json";
 
 class RidgewayElectionFeed extends React.Component{
     render(){
@@ -32,14 +34,14 @@ class RidgewayElectionFeed extends React.Component{
                                 <div className='can-name-unoffical'>Matrix_oc* </div>
                                 <div className='can-party'>Independent</div>
                                 <div className='can-votes'>N/A</div>
-                                <div className='can-pct'>43.84%</div>
+                                <div className='can-pct'>45.03%</div>
                             </tr>
                             <tr className='candidate-2'>
                                 <div className='can-partycolor-ind'></div>
                                 <div className='can-name2'>DanielReagan</div>
                                 <div className='can-party'>Independent</div>
                                 <div className='can-votes'>N/A</div>
-                                <div className='can-pct'>56.16%</div>
+                                <div className='can-pct'>54.97%</div>
                             </tr>
                         </table>
                         <div className='footer-table'>
@@ -68,14 +70,14 @@ class RidgewayElectionFeed extends React.Component{
                                 <div className='can-name-unoffical'>JasonBourneAxis*</div>
                                 <div className='can-party'>Independent</div>
                                 <div className='can-votes'>N/A</div>
-                                <div className='can-pct'>46.49%</div>
+                                <div className='can-pct'>46.31%</div>
                             </tr>
                             <tr className='candidate-2'>
                                 <div className='can-partycolor-ind'></div>
                                 <div className='can-name2'>AlexNeptunes</div>
                                 <div className='can-party'>Independent</div>
                                 <div className='can-votes'>N/A</div>
-                                <div className='can-pct'>53.51%</div>
+                                <div className='can-pct'>53.69%</div>
                             </tr>
                         </table>
                         <div className='footer-table'>
