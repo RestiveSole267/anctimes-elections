@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/anctimes-elections/static/css/main.805fbb66.css",
-    "main.js": "/anctimes-elections/static/js/main.48167a76.js",
+    "main.css": "/anctimes-elections/static/css/main.3f6bfbff.css",
+    "main.js": "/anctimes-elections/static/js/main.11f6d7f1.js",
     "static/js/453.066f5027.chunk.js": "/anctimes-elections/static/js/453.066f5027.chunk.js",
     "static/media/Chomsky.ttf": "/anctimes-elections/static/media/Chomsky.0f478658820be47b1c38.ttf",
     "static/media/timesnewroman.ttf": "/anctimes-elections/static/media/timesnewroman.f85717dad92d60284052.ttf",
     "static/media/R-SPAN.png": "/anctimes-elections/static/media/R-SPAN.978762f087eed415ec2e.png",
     "static/media/ImperialRegular.ttf": "/anctimes-elections/static/media/ImperialRegular.ca98acac564069e658cc.ttf",
     "index.html": "/anctimes-elections/index.html",
-    "main.805fbb66.css.map": "/anctimes-elections/static/css/main.805fbb66.css.map",
-    "main.48167a76.js.map": "/anctimes-elections/static/js/main.48167a76.js.map",
+    "main.3f6bfbff.css.map": "/anctimes-elections/static/css/main.3f6bfbff.css.map",
+    "main.11f6d7f1.js.map": "/anctimes-elections/static/js/main.11f6d7f1.js.map",
     "453.066f5027.chunk.js.map": "/anctimes-elections/static/js/453.066f5027.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.805fbb66.css",
-    "static/js/main.48167a76.js"
+    "static/css/main.3f6bfbff.css",
+    "static/js/main.11f6d7f1.js"
   ]
 }
