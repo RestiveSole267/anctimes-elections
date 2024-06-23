@@ -320,6 +320,15 @@
   position: relative;
   width: 54%;
 }
+.can-name-pre{
+  padding-left: 2%;
+  padding-top: 1.5%;
+  text-align: left;
+  position: relative;
+  width: 54%;
+  background-color: gray;
+  color: white;
+}
 .can-name2-un, .can-name3-un{
   padding-left: 2%;
   padding-top: 1.5%;

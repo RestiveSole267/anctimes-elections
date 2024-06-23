@@ -31,19 +31,19 @@ class RidgewayElectionFeed extends React.Component{
                                 <div className='votes-title'>Votes</div>
                                 <div className='pct-title'>PCT.</div>
                             </thead>
+                            <tr className='candidate-1'>
+                                <div className='can-partycolor-ind'></div>
+                                <div className='can-name-pre'>Matrix_oc* </div>
+                                <div className='can-party'>Independent</div>
+                                <div className='can-votes'>245</div>
+                                <div className='can-pct'>52%</div>
+                            </tr>
                             <tr className='candidate-2'>
                                 <div className='can-partycolor-ind'></div>
                                 <div className='can-name2'>DanielReagan</div>
                                 <div className='can-party'>Independent</div>
                                 <div className='can-votes'>252</div>
-                                <div className='can-pct'>50.63%</div>
-                            </tr>
-                            <tr className='candidate-1'>
-                                <div className='can-partycolor-ind'></div>
-                                <div className='can-name-unoffical'>Matrix_oc* </div>
-                                <div className='can-party'>Independent</div>
-                                <div className='can-votes'>245</div>
-                                <div className='can-pct'>49.37%</div>
+                                <div className='can-pct'>48%</div>
                             </tr>
                         </table>
                         <div className='footer-table'>
@@ -69,7 +69,7 @@ class RidgewayElectionFeed extends React.Component{
                             </thead>
                             <tr className='candidate-2'>
                                 <div className='can-partycolor-ind'></div>
-                                <div className='can-name2'>AlexNeptunes</div>
+                                <div className='can-name-pre'>AlexNeptunes</div>
                                 <div className='can-party'>Independent</div>
                                 <div className='can-votes'>204</div>
                                 <div className='can-pct'>50.32%</div>
