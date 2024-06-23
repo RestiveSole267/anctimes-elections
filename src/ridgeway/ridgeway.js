@@ -33,7 +33,7 @@ class RidgewayElectionFeed extends React.Component{
                             </thead>
                             <tr className='candidate-1'>
                                 <div className='can-partycolor-ind'></div>
-                                <div className='can-name-pre'>Matrix_oc* </div>
+                                <div className='can-name1'>Matrix_oc* <CheckIcon className="checkicon" style={{ fontSize: 12 }}></CheckIcon></div>
                                 <div className='can-party'>Independent</div>
                                 <div className='can-votes'>295</div>
                                 <div className='can-pct'>52.07%</div>
@@ -69,7 +69,7 @@ class RidgewayElectionFeed extends React.Component{
                             </thead>
                             <tr className='candidate-2'>
                                 <div className='can-partycolor-ind'></div>
-                                <div className='can-name-pre'>AlexNeptunes</div>
+                                <div className='can-name1'>AlexNeptunes <CheckIcon className="checkicon" style={{ fontSize: 12 }}></CheckIcon></div>
                                 <div className='can-party'>Independent</div>
                                 <div className='can-votes'>238</div>
                                 <div className='can-pct'>51.85%</div>
