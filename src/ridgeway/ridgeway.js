@@ -18,7 +18,7 @@ class RidgewayElectionFeed extends React.Component{
                 </div>
                 <div className='governor-section'>
                     <h1 className='election-name'>Governor</h1>
-                    <p className='election-desc'>Governor Matrix_oc, a Independent, is facing DanielReagan, the incumbent Sheriff of the Ridgeway Sheriffs Office, in the Ridgeway Gubernatorial Primary Race.</p>
+                    <p className='election-desc'>Matrix_oc, the incumbent Governor of Ridgeway, is running for a second term as Governor with his new running mate, Vincefant. Despite going to war with neighboring ro-state Firestone, Mr. Matrix is considered to be the favorite in the race. His challenger is DanielReagan, the incumbent Sheriff of Ridgeway County Sheriffs Office, who has positioned himself as the more radical choice. </p>
                     <div className='candidate-table-1'>
                         <div className='updated-info-table'>
                             <p className='last-update-title'>Latest results from {ctime} ET</p>
@@ -54,7 +54,7 @@ class RidgewayElectionFeed extends React.Component{
                 </div>
                 <div className='secstate-section'>
                     <h1 className='election-name'>Secretary of State</h1>
-                    <p className='election-desc'>JasonBourneAxis, is currently locked in a tight race with AlexNeptunes, a Independent, to keep his post as Secretary of State of Ridgeway. </p>
+                    <p className='election-desc'>JasonBourneAxis, the incumbent Secretary of State of Ridgeway, is running for a third term as Secretary of State. His challenger is AlexNeptunes, who has proven to be the more popular choice.</p>
                     <div className='candidate-table-1'>
                         <div className='updated-info-table'>
                             <p className='last-update-title'>Latest results from {ctime} E.T.</p>
