@@ -22,7 +22,7 @@ class RidgewayElectionFeed extends React.Component{
                     <div className='candidate-table-1'>
                         <div className='updated-info-table'>
                             <p className='last-update-title'>Latest results from {ctime} ET</p>
-                            <p className='cerified-votes-title'>VOTE TOTALS CERTIFIED</p>
+                            <p className='cerified-votes-title'>{'>'}75% Reported</p>
                         </div>
                         <table className='candidate-table-body'>
                             <thead className='table-head-info'>
@@ -48,7 +48,7 @@ class RidgewayElectionFeed extends React.Component{
                         </table>
                         <div className='footer-table'>
                             <p className='footnote-title'>*Incumbent</p>
-                            <p className='reported-title'>{'>'}75% Reported</p>
+                            <p className='reported-title'>Total Reported: 497 votes</p>
                         </div>
                     </div>
                 </div>
@@ -58,7 +58,7 @@ class RidgewayElectionFeed extends React.Component{
                     <div className='candidate-table-1'>
                         <div className='updated-info-table'>
                             <p className='last-update-title'>Latest results from {ctime} E.T.</p>
-                            <p className='cerified-votes-title'>VOTE TOTALS CERTIFIED</p>
+                            <p className='cerified-votes-title'>{'>'}75% Reported</p>
                         </div>
                         <table className='candidate-table-body'>
                             <thead className='table-head-info'>
@@ -84,7 +84,7 @@ class RidgewayElectionFeed extends React.Component{
                         </table>
                         <div className='footer-table'>
                             <p className='footnote-title'>*Incumbent</p>
-                            <p className='reported-title'>{'>'}75% Reported</p>
+                            <p className='reported-title'>Total Reported: 405 votes</p>
                         </div>
                     </div>
                 </div>
@@ -94,7 +94,7 @@ class RidgewayElectionFeed extends React.Component{
                     <div className='candidate-table-1'>
                         <div className='updated-info-table'>
                             <p className='last-update-title'>Latest results from June 4</p>
-                            <p className='cerified-votes-title'>VOTE TOTALS CERTIFIED</p>
+                            <p className='cerified-votes-title'>100% Reported</p>
                         </div>
                         <table className='candidate-table-body'>
                             <thead className='table-head-info'>
@@ -218,7 +218,7 @@ class RidgewayElectionFeed extends React.Component{
                         </table>
                         <div className='footer-table'>
                             <p className='footnote-title'>*Incumbent</p>
-                            <p className='reported-title'>100% Reported</p>
+                            <p className='reported-title'></p>
                         </div>
                     </div>
                 </div>
@@ -228,7 +228,7 @@ class RidgewayElectionFeed extends React.Component{
                     <div className='candidate-table-2'>
                         <div className='updated-info-table'>
                             <p className='last-update-title'>Latest results from March 17</p>
-                            <p className='cerified-votes-title'>VOTE TOTALS CERTIFIED</p>
+                            <p className='cerified-votes-title'>100% Reported</p>
                         </div>
                         <table className='candidate-table-body'>
                             <thead className='table-head-info'>
@@ -254,7 +254,7 @@ class RidgewayElectionFeed extends React.Component{
                         </table>
                         <div className='footer-table'>
                             <p className='footnote-title'>*Incumbent</p>
-                            <p className='reported-title'>100% Reported</p>
+                            <p className='reported-title'>Total Reported: 6,000 votes</p>
                         </div>
                     </div>
                 </div>
@@ -264,7 +264,7 @@ class RidgewayElectionFeed extends React.Component{
                     <div className='candidate-table-1'>
                         <div className='updated-info-table'>
                             <p className='last-update-title'>Latest results from March 17</p>
-                            <p className='cerified-votes-title'>VOTE TOTALS CERTIFIED</p>
+                            <p className='cerified-votes-title'>100% Reported</p>
                         </div>
                         <table className='candidate-table-body'>
                             <thead className='table-head-info'>
@@ -293,7 +293,7 @@ class RidgewayElectionFeed extends React.Component{
                         </table>
                         <div className='footer-table'>
                             <p className='footnote-title'>*Incumbent</p>
-                            <p className='reported-title'>100% Reported</p>
+                            <p className='reported-title'>Total Reported: 6,000 votes</p>
                         </div>
                     </div>
                 </div>
