@@ -22,7 +22,7 @@ class RidgewayElectionFeed extends React.Component{
                     <div className='candidate-table-1'>
                         <div className='updated-info-table'>
                             <p className='last-update-title'>Latest results from {ctime} ET</p>
-                            <p className='cerified-votes-title'>{'>'}99% Reported</p>
+                            <p className='cerified-votes-title'>100% Reported</p>
                         </div>
                         <table className='candidate-table-body'>
                             <thead className='table-head-info'>
@@ -35,20 +35,20 @@ class RidgewayElectionFeed extends React.Component{
                                 <div className='can-partycolor-ind'></div>
                                 <div className='can-name1'>Matrix_oc* <CheckIcon className="checkicon" style={{ fontSize: 12 }}></CheckIcon></div>
                                 <div className='can-party'>Independent</div>
-                                <div className='can-votes'>295</div>
-                                <div className='can-pct'>52.07%</div>
+                                <div className='can-votes'>308</div>
+                                <div className='can-pct'>52.92%</div>
                             </tr>
                             <tr className='candidate-2'>
                                 <div className='can-partycolor-ind'></div>
                                 <div className='can-name2'>DanielReagan</div>
                                 <div className='can-party'>Independent</div>
-                                <div className='can-votes'>270</div>
-                                <div className='can-pct'>47.93%</div>
+                                <div className='can-votes'>274</div>
+                                <div className='can-pct'>47.08%</div>
                             </tr>
                         </table>
                         <div className='footer-table'>
                             <p className='footnote-title'>*Incumbent</p>
-                            <p className='reported-title'>Total Reported: 565 votes</p>
+                            <p className='reported-title'>Total Reported: 582 votes</p>
                         </div>
                     </div>
                 </div>
@@ -58,7 +58,7 @@ class RidgewayElectionFeed extends React.Component{
                     <div className='candidate-table-1'>
                         <div className='updated-info-table'>
                             <p className='last-update-title'>Latest results from {ctime} E.T.</p>
-                            <p className='cerified-votes-title'>{'>'}99% Reported</p>
+                            <p className='cerified-votes-title'>100% Reported</p>
                         </div>
                         <table className='candidate-table-body'>
                             <thead className='table-head-info'>
@@ -71,20 +71,20 @@ class RidgewayElectionFeed extends React.Component{
                                 <div className='can-partycolor-ind'></div>
                                 <div className='can-name1'>AlexNeptunes <CheckIcon className="checkicon" style={{ fontSize: 12 }}></CheckIcon></div>
                                 <div className='can-party'>Independent</div>
-                                <div className='can-votes'>238</div>
-                                <div className='can-pct'>51.85%</div>
+                                <div className='can-votes'>246</div>
+                                <div className='can-pct'>52.27%</div>
                             </tr>
                             <tr className='candidate-1'>
                                 <div className='can-partycolor-ind'></div>
                                 <div className='can-name-unoffical'>JasonBourneAxis*</div>
                                 <div className='can-party'>Independent</div>
-                                <div className='can-votes'>221</div>
-                                <div className='can-pct'>48.15%</div>
+                                <div className='can-votes'>225</div>
+                                <div className='can-pct'>47.73%</div>
                             </tr>
                         </table>
                         <div className='footer-table'>
                             <p className='footnote-title'>*Incumbent</p>
-                            <p className='reported-title'>Total Reported: 459 votes</p>
+                            <p className='reported-title'>Total Reported: 471 votes</p>
                         </div>
                     </div>
                 </div>
