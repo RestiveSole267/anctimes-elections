@@ -22,7 +22,7 @@ class RidgewayElectionFeed extends React.Component{
                     <div className='candidate-table-1'>
                         <div className='updated-info-table'>
                             <p className='last-update-title'>Latest results from {ctime} ET</p>
-                            <p className='cerified-votes-title'>{'>'}75% Reported</p>
+                            <p className='cerified-votes-title'>{'>'}85% Reported</p>
                         </div>
                         <table className='candidate-table-body'>
                             <thead className='table-head-info'>
@@ -48,7 +48,7 @@ class RidgewayElectionFeed extends React.Component{
                         </table>
                         <div className='footer-table'>
                             <p className='footnote-title'>*Incumbent</p>
-                            <p className='reported-title'>Total Reported: 497 votes</p>
+                            <p className='reported-title'>Total Reported: 565 votes</p>
                         </div>
                     </div>
                 </div>
@@ -58,7 +58,7 @@ class RidgewayElectionFeed extends React.Component{
                     <div className='candidate-table-1'>
                         <div className='updated-info-table'>
                             <p className='last-update-title'>Latest results from {ctime} E.T.</p>
-                            <p className='cerified-votes-title'>{'>'}75% Reported</p>
+                            <p className='cerified-votes-title'>{'>'}85% Reported</p>
                         </div>
                         <table className='candidate-table-body'>
                             <thead className='table-head-info'>
@@ -84,7 +84,7 @@ class RidgewayElectionFeed extends React.Component{
                         </table>
                         <div className='footer-table'>
                             <p className='footnote-title'>*Incumbent</p>
-                            <p className='reported-title'>Total Reported: 405 votes</p>
+                            <p className='reported-title'>Total Reported: 459 votes</p>
                         </div>
                     </div>
                 </div>
