@@ -19,18 +19,9 @@
   text-align: center;
   max-height: fit-content;
   border-bottom: 1px double rgb(214, 214, 214);
-  width: 2560px;
+  min-width: 1582px;
   padding-top: 0.7%;
   padding-bottom: 0.7%;
-}
-.sub-headers{
-  padding-right: 950px;
-}
-.divider{
-  font-size: 20px;
-}
-.R-SPAN{
-  padding-right: 8px;
 }
 .header{
   font-family: "Chomsky", sans-serif;
@@ -39,8 +30,6 @@
   text-decoration: none;
   color: black;
   padding-left: 5px;
-  padding-top: 0.7%;
-  padding-bottom: 0.7%;
 }
 #election-header{
   display: flex;
@@ -139,6 +128,11 @@
 .election-name{
   font-family: "Imperial", "sans-serif";
   font-size: 25px;
+}
+.election-name1{
+  font-family: "Imperial", "sans-serif";
+  font-size: 18px;
+  padding-top: 1%;
 }
 .updated-info-table{
   display: flex;

@@ -6,9 +6,7 @@ class StandingHeader extends React.Component{
     render(){
         return (
             <div id='standing-header'>
-                <div className="sub-headers">
-                    <a href="https://ro-span.org/" className='header'><img src={RSPAN} width="87" height="20" className="R-SPAN" atl="R-SPAN"></img>/ TheAnchorageTimes</a>
-                </div>
+                <a href="https://ro-span.org/" className='header'>TheAnchorageTimes</a>
             </div>
         );
     }

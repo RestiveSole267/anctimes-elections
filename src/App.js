@@ -2,6 +2,7 @@ import RidgewayFeed from './ridgeway/ridgeway-feed';
 import AnchorageFeed from './anchorage/anchorage-feed';
 import HarrisonFeed from './harrison/harrison-feed';
 import StateResultsFeed from './state-results/state-results-feed';
+import RidgewayGovFeed from './ridgeway/ridgeway-gov';
 import './App.css';
 import { Route, Routes } from "react-router-dom"
 
