@@ -3,6 +3,7 @@ import AnchorageFeed from './anchorage/anchorage-feed';
 import HarrisonFeed from './harrison/harrison-feed';
 import StateResultsFeed from './state-results/state-results-feed';
 import RidgewayGovFeed from './ridgeway/ridgeway-gov';
+import RidgewaySOSFeed from './ridgeway/ridgeway-sos';
 import './App.css';
 import { Route, Routes } from "react-router-dom"
 
@@ -17,6 +18,8 @@ function App() {
         <Route path='anctimes-elections/ridgeway' element={<RidgewayFeed></RidgewayFeed>}></Route>
         <Route path='anctimes-elections/harrison' element={<HarrisonFeed></HarrisonFeed>}></Route>
         <Route path='anctimes-elections/state-results' element={<StateResultsFeed></StateResultsFeed>}></Route>
+        <Route path='anctimes-elections/ridgeway-gubernatorial' element={<RidgewayGovFeed></RidgewayGovFeed>}></Route>
+        <Route path='anctimes-elections/ridgeway-secofstate' element={<RidgewaySOSFeed></RidgewaySOSFeed>}></Route>
       </Routes>
     </div>
   );

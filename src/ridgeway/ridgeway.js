@@ -1,5 +1,6 @@
 import React from "react";
 import moment from "moment";
+import { Link } from "react-router-dom"
 import CheckIcon from '@material-ui/icons/Check';
 import "../App.css";
 
@@ -19,6 +20,8 @@ class RidgewayElectionFeed extends React.Component{
                 <div className='governor-section'>
                     <h1 className='election-name'>Governor</h1>
                     <p className='election-desc'>Matrix_oc, the incumbent Governor of Ridgeway, is running for a second term as Governor. Despite going to war with neighboring ro-state Firestone, Mr. Matrix is considered to be the favorite in the race. His challenger is DanielReagan, the incumbent Sheriff of RCSO, who has positioned himself as the more radical choice. </p>
+                    <Link to="/anctimes-elections/ridgeway-gubernatorial" className='election-link-2'>See full race results {'>'}</Link>
+                    <p className='election-desc'></p>
                     <div className='candidate-table-1'>
                         <div className='updated-info-table'>
                             <p className='last-update-title'>Latest results from {ctime} ET</p>
@@ -54,7 +57,9 @@ class RidgewayElectionFeed extends React.Component{
                 </div>
                 <div className='secstate-section'>
                     <h1 className='election-name'>Secretary of State</h1>
-                    <p className='election-desc'>JasonBourneAxis, the incumbent Secretary of State of Ridgeway, is running for a third term as Secretary of State. His challenger is AlexNeptunes, who has proven to be the more popular choice.</p>
+                    <p className='election-desc'>JasonBourneAxis, the incumbent Secretary of State of Ridgeway, is running for a third term as Sec. of State. His challenger is AlexNeptunes, who has proven to be the more popular choice.</p>
+                    <Link to="/anctimes-elections/ridgeway-secofstate" className='election-link-2'>See full race results {'>'}</Link>
+                    <p className='election-desc'></p>
                     <div className='candidate-table-1'>
                         <div className='updated-info-table'>
                             <p className='last-update-title'>Latest results from {ctime} E.T.</p>
